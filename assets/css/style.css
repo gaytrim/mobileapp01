@@ -1,0 +1,324 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	
+	
+}
+
+.hero-section{
+	padding: 45px 65px;
+	background-color: #c43d34;
+	background-image: linear-gradient(rgb(196, 61, 52, 0.5), rgb(196, 61, 52, 0.5)), url('../images/layer.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+
+.hero-section .logo{
+	margin-bottom:145px;
+}
+
+.navbar ul li{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.navbar ul{
+	padding-top: 15px;
+}
+
+.navbar ul li a{
+	color: #fff;
+	font-weight: 400;
+	font-size: 16px;
+	padding: 10px;
+	text-transform: uppercase;
+	position: relative;
+	
+	
+}
+
+
+.navbar ul li a::after{
+	content: '';
+	height: 3px;
+	width: 0;
+	background-color: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition: all 0.7s linear;
+	
+}
+
+.navbar ul li a:hover::after{
+	width: 100%;
+}
+
+.chocolate-Info h1{
+	font-size: 52px;
+	font-weight: bold;
+	color: #fff;
+	margin-bottom: 60px;
+	text-transform: uppercase;
+}
+
+.chocolate-Info p{
+	font-size: 36px;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+.chocolate-Info a{
+	background-color: #282828;
+	color: #fff;
+	padding: 15px 50px 15px 35px;
+	border-radius: 45px;
+}
+
+.chocolate-Info a i{
+	margin-right: 25px;
+	font-size: 45px;
+	vertical-align: middle;
+}
+.hero-section .mobImg{
+	position: relative;
+}
+
+.hero-section .mobImg img{
+	position: absolute;
+	right: 20px;
+	top: -40px;
+	width: 90%;
+}
+
+/*************************hero-section end********************************/
+
+.app-features{
+	padding: 85px 0 100px;
+}
+
+.app-features .features-heading h1{
+	font-size: 52px;
+	font-weight: bold;
+	color: #8a8a8a;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+}
+
+.app-features .features-heading p{
+	font-size: 22px;
+	font-weight: 400;
+	color: #3a3a3a;
+	margin-bottom: 65px;
+}
+
+.featuresInfo figure{
+	width: 180px;
+	height: 180px;
+	margin: 0 auto 35px;
+}
+
+.featuresInfo figure img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.featuresInfo h2{
+	font-size: 24px;
+	font-weight: bold;
+	color: #1a1a1a;
+	text-transform: uppercase;
+	margin-bottom: 45px;
+	
+}
+
+.featuresInfo p{
+	font-size: 18px;
+	font-weight: 400px;
+	color: #646464;
+}
+
+/**************************app-features**************************/
+
+.fruitsection{
+	padding: 200px 0 170px;
+	background-image: url('../images/chocolate-img.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	background-attachment: fixed;
+	
+}
+
+.fruitInfo h1{
+	font-size: 52px;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 55px;
+}
+
+.fruitInfo p{
+	font-size: 24px;
+	font-weight: 400;
+	color: #585858;
+	margin-bottom: 70px;
+	width: 70%;
+	
+}
+
+.fruitInfo a{
+	font-size: 16px;
+	color: #fff;
+	font-weight: bold;
+	background-color: #d9332d;
+	border: 2px solid #d9332d;
+	padding: 20px 25px;
+	border-radius: 40px;
+	transition: all 0.7s linear;
+	text-transform: uppercase;
+	box-shadow: 2px 2px 20px;
+	color: black;
+}
+
+.fruitInfo a:hover{
+	color: #d9332d;
+	background-color: #fff;
+	border: 2px solid #d9332d;
+}
+/***************************fruitsection end************************/
+
+.post-section{
+	padding-top: 120px;
+	padding-bottom:140px;
+	background-color: #2e2e38;
+	
+	
+}
+
+.post-section .post-logo{
+	margin-bottom: 60px;
+}
+
+.post-section .footer-list .box{
+	width: 57px;
+	height: 40px;
+	background-color: #e74c3c;
+}
+
+.footer-list h4{
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+}
+
+.footer-list ul li{
+	display: table;
+	clear: both;
+	width: 100%;
+	margin-bottom: 25px;
+	
+}
+.footer-list ul li div{
+	float: left;
+	
+}
+
+.footer-list .donut-info{
+	margin-left: 15px;
+	padding-top: 5px;
+}
+
+.footer-list .donut-info p{
+	font-size: 15px;
+	color: #fff;
+	font-weight: 400;
+}
+
+.footer-list suits-list .sedLex-info{
+	margin-left: 15px;
+	padding: 5px;
+}
+
+.sedLex-info h1{
+	font-size: 15px;
+	color: #fff;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+.sedLex-info p{
+	font-size: 15px;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 25px;
+	width: 70%;
+}
+
+.footer-list suits-list .chessecake-info{
+	margin-left: 15px;
+	padding: 5px;
+}
+
+.chessecake-info p{
+	font-size: 15px;
+	font-weight: 400;
+	color: #fff;
+	margin-bottom: 25px;
+	width: 75%;
+	font-style: italic;
+}
+
+.footer{
+	padding: 40px 0;
+}
+.footerInfosection p, .footerInfosection .social-icons{
+	display: inline-block;
+}
+
+
+.footerInfosection p{
+	color: #000;
+	font-weight: 400;
+	font-size: 25px;
+}
+
+.footerInfosection p a{
+	color: #000;
+}
+
+.footerInfosection p span{
+	margin: 0 20px;
+	font-weight: 900;
+}
+
+.footerInfosection .social-icons a:first-child{
+	margin-left:20px;
+	
+}
+
+.footerInfosection .social-icons a{
+	width: 30px;
+	height: 30px;
+	background-color: #44609e;
+	padding: 7px;
+	margin-right:40px;
+	color: #fff;
+	border-radius: 5px;	
+}
+
+.footerInfosection .social-icons a:nth-child(2){
+	background-color: pink;
+}
+
+.footerInfosection .social-icons a:nth-child(3){
+	background-color: #88dfe3;
+}
